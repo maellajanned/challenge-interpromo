@@ -1,0 +1,185 @@
+/*==================== la partie reset csss ================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*============================= debut du style css===================*/
+
+body {
+  position: relative;
+
+}
+
+/*====================== le style de l'entete=======================*/
+
+header {
+  width: 100%;
+  height: 10%;
+}
+#entete {
+  width: 100%;
+  height: 15%;
+  background-image: url(images/payments-banner-graphic.png);
+}
+img {
+  float: left;
+  margin-left: 5%;
+  margin-top: 17px;
+}
+#logo {
+  float: left;
+  margin-left: 10px;
+  margin-top: 15px;
+  width: 15px;
+  height: 15px;
+  color: white;
+}
+#sign {
+  float: right;
+  margin-left: 5px;
+  margin-right: 25px;
+  margin-top: 15px;
+  height: 15px;
+  width: 5%;
+  color: white;
+}
+#login {
+  float: right;
+  margin-left: 10px;
+  margin-top: 15px;
+  height: 15px;
+  width: 35px;
+  color: white;
+}
+.t1 {
+  margin-top: 15%;
+}
+#create {
+  width: 20%;
+  height: 30px;
+  margin-left: 42%;
+  margin-right: 10px;
+  margin-top: 3%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: white;
+  font-size: 15px;
+    text-align: center;
+}
+
+.frase1 {
+  margin-left: 40%;
+}
+.frase2 {
+  margin-top: 3%;
+  margin-left: 45%;
+}
+.mil1 {
+  height: 25px;
+  width: 250px;
+  position: absolute;
+  margin-top: 200px;
+}
+.im1 {
+  height: 130px;
+  width: 130px;
+  background-image: url(images/payments-calendar-icon.svg);
+  position: absolute;
+  margin-left: 70px;
+  margin-top: 25px;
+}
+#q {
+  margin-left: 95px;
+  color: rgba(0, 0, 0, 0.5);
+}
+#tc {
+  margin-top: 10px;
+  margin-left: 35px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+.im2 {
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  margin-left: 350px;
+  background-image: url(images/payments-mail-icon.svg);
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+  margin-top: 25px;
+}
+#r {
+  margin-left: 95px;
+  color: rgba(0, 0, 0, 0.5);
+}
+#tb {
+  margin-top: 10px;
+  margin-left: 35px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+/*======================== css du footer====================*/
+footer {
+  width: 1042px;
+  height: 400px;
+  position: relative;
+}
+.cas1{
+  width: 240px;
+  height: 153px;
+  margin-bottom: 20px;
+  margin-left: 250px;
+  position: relative;
+  margin-top: 70px;
+}
+.cas1 li{
+  text-decoration: none;
+}
+.cas2{
+  width: 240px;
+  height: 153px;
+  margin-bottom: 20px;
+  margin-left: 350px;
+  position: absolute;
+}
+.cas2 li{
+text-decoration: none;
+}
+.cas3{
+  position: relative;
+  width: 240px;
+  height: 153px;
+  margin-bottom: 20px;
+  margin-left: 600px;
+}
+.cas3 li{
+  text-decoration: none;
+}
